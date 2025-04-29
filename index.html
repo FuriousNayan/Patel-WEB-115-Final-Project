@@ -10,13 +10,20 @@
     <h1>
         Task Manager
     </h1>
-    <input type = 'text' >
+    
     Please enter a task: <input id = 'input'>
-    <input type = 'checkbox'> Important
-    <button id = 'button'> Add Task</button>
-
-    <div id = 'taskManager'>
-    </div>
+    <form id = 'taskForm'>
+        <select name = 'dropdown' id = 'dropdown'>
+            <option name = 'low'>Low</option>
+            <option id = 'medium'>Medium</option>
+            <option id = 'high'>High</option>
+        </select>
+        <input type = 'checkbox'> Important
+        <button id = 'button'> Add Task</button>
+        <div id = 'taskManager'></div>
+    </form>
+    
+    
     
     
 </body>
