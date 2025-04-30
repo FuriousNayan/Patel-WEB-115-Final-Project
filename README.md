@@ -1,1 +1,9 @@
-# Final-Project
+# Final-Project Reflection
+
+### Name: Nayan Patel
+### School: Wake Early College of Information and Biotechnology
+### Assignment: WEB-115 Final Project
+
+#### Reflection: 
+This Final Project was something that incorporated everything. Glancing back at the different event listeners, and div ids was a struggle. I had to use workarounds because I sometimes forgot the syntax of a loop or an event listener. For example, I dynamically added the paragraphs/buttons/divs and more into the HTML itself by using the createElement method. This was the key usage of my final project. From there, I had to add the logic to the different buttons. One issue I encountered was when I wanted to add the delete and done checkbox and button. It could only happen when it was inside of my click event listener, meaning I could not just normally add it into HTML like the other elements. I had to use createElement('button') createElement('div') and more to work around this. Another issue I encountered was the logic of the things printing onto the console. At first, I hardcoded the jsonObject, telling it to print at certain events. Then I realized that it had to be in an array, so I created an empty array, and pushed it into the array to make it so all of them print. This also means that I had to pop it when it was the delete event listener as well. What surprised me is what I got away with without using loops. My least favorite thing in coding is using loops, and I got the same output without using any kind of loops. Another thing that surprised me is if I try and push everything onto the masterdiv I already got, it would target everything, which is something I had to fix by creating another subdiv inside the event listener. Everytime I click the button, it creates another div inside the master div so it can dynamically add everything and not target everything. This would be useful because if you highlight it red, it would only highlight that certain task, and not the whole output page. Those are some things that went wrong, but overall the project was something that encompasses the whole year, and I am happy with the outcome of it. 
+

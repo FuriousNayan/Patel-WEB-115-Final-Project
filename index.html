@@ -5,20 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Task Manager</title>
     <script src = 'script.js' defer></script>
+    <style>
+        /* Adding in different CSS stylings such as making the background color
+        aqua, aligning all the text to the center, and adding a border */
+        body{
+            background-color: aqua;
+        }
+        * {
+            text-align: center;
+            
+        }
+        .task-container{
+            border: 2px solid black;
+            border-radius: 20px;
+        }
+    </style>
 </head>
 <body>
     <h1>
-        Task Manager
+         Interactive Task Manager
     </h1>
-    
-    Please enter a task: <input id = 'input'>
+    <!-- Adding in all my elements, other elements are inputted dynamically through javascript. -->
     <form id = 'taskForm'>
+        Please enter a task: <input id = 'input' placeholder="ie. Walking the Dog" >
         <select name = 'dropdown' id = 'dropdown'>
             <option name = 'low'>Low</option>
             <option id = 'medium'>Medium</option>
             <option id = 'high'>High</option>
         </select>
-        <input type = 'checkbox'> Important
+        <input type = 'checkbox' id = 'important'> Important
         <button id = 'button'> Add Task</button>
         <div id = 'taskManager'></div>
     </form>
